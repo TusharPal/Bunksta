@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <TableRow>
+
+            <com.a1kesamose.bunksta.Object.ColorIconButton
+                android:id="@+id/alertDialog_color_picker_button_00"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="#ffff0000"/>
+
+            <com.a1kesamose.bunksta.Object.ColorIconButton
+                android:id="@+id/alertDialog_color_picker_button_01"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="#ffcc99ff"/>
+
+            <com.a1kesamose.bunksta.Object.ColorIconButton
+                android:id="@+id/alertDialog_color_picker_button_02"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="#ff9999ff"/>
+
+            <com.a1kesamose.bunksta.Object.ColorIconButton
+                android:id="@+id/alertDialog_color_picker_button_03"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="#ff0080ff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <com.a1kesamose.bunksta.Object.ColorIconButton
+                android:id="@+id/alertDialog_color_picker_button_04"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="#ffffff00"/>
+
+            <com.a1kesamose.bunksta.Object.ColorIconButton
+                android:id="@+id/alertDialog_color_picker_button_05"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="#ff00cc00"/>
+
+            <com.a1kesamose.bunksta.Object.ColorIconButton
+                android:id="@+id/alertDialog_color_picker_button_06"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="#ff00cccc"/>
+
+            <com.a1kesamose.bunksta.Object.ColorIconButton
+                android:id="@+id/alertDialog_color_picker_button_07"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="#ff00ffff"/>
+        </TableRow>
+
+        <TableRow>
+
+            <com.a1kesamose.bunksta.Object.ColorIconButton
+                android:id="@+id/alertDialog_color_picker_button_08"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="#ffff8000"/>
+
+            <com.a1kesamose.bunksta.Object.ColorIconButton
+                android:id="@+id/alertDialog_color_picker_button_09"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="#ffff6666"/>
+
+            <com.a1kesamose.bunksta.Object.ColorIconButton
+                android:id="@+id/alertDialog_color_picker_button_10"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="#ffa0a0a0"/>
+
+            <com.a1kesamose.bunksta.Object.ColorIconButton
+                android:id="@+id/alertDialog_color_picker_button_11"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="#ffffffff"/>
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>
+

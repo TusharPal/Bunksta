@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.a1kesamose.bunksta.Fragment.FragmentCourses">
+
+    <item
+        android:id="@+id/fragment_courses_action_new"
+        android:title="New course"
+        android:icon="@drawable/ic_action_new"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+</menu>

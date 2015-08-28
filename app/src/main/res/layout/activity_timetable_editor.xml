@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:id="@+id/activity_timetable_editor_spinner_courses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="4dp"
+            android:spinnerMode="dialog"/>
+
+        <Spinner
+            android:id="@+id/activity_timetable_editor_spinner_day_of_week"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_timetable_editor_spinner_courses"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:spinnerMode="dialog"
+            android:entries="@array/days_of_week"/>
+
+        <TextView
+            android:id="@+id/activity_timetable_editor_textView_startTime_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_timetable_editor_spinner_day_of_week"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/activity_timetable_editor_editText_startTime"
+            android:layout_alignBottom="@+id/activity_timetable_editor_editText_startTime"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="Start time"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/activity_timetable_editor_editText_startTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_timetable_editor_spinner_day_of_week"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:editable="false"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="10:10"/>
+
+        <TextView
+            android:id="@+id/activity_timetable_editor_textView_endTime_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_timetable_editor_textView_startTime_label"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/activity_timetable_editor_editText_endTime"
+            android:layout_alignBottom="@+id/activity_timetable_editor_editText_endTime"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="End time"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/activity_timetable_editor_editText_endTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_timetable_editor_editText_startTime"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:editable="false"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="10:10"/>
+
+        <EditText
+            android:id="@+id/activity_timetable_editor_editText_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_timetable_editor_editText_endTime"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:editable="false"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="Classroom location"/>
+    </RelativeLayout>
+</ScrollView>
